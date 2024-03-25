@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7CF5E10E-FCE8-3A97-EFC9-C4E0DDC796A0" schemaObject="952836C2-61DD-A7F7-A7D1-283C67057D2D" name="강의내역">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>JAVA</sourceObjSchema>
+<sourceObjName>강의내역</sourceObjName>
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:22 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="강의내역번호" id="1100ED74-A0D9-963F-3202-1EA74501E540">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>강의내역</sourceObjSchema>
+<sourceObjName>강의내역번호</sourceObjName>
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:22 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="교수번호" id="D9060B7F-8324-DC68-D533-2952C52E3BEA">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>강의내역</sourceObjSchema>
+<sourceObjName>교수번호</sourceObjName>
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:22 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="173D4781-589A-999A-9578-7B6604F2B0D5" referredColumn="8CFB7DC3-C747-04FC-7436-3C36833BE1BE"/>
+</associations>
+</Column>
+<Column name="과목번호" id="F8AFB451-AE2A-B37F-5489-AE1608795737">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>강의내역</sourceObjSchema>
+<sourceObjName>과목번호</sourceObjName>
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:22 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEE1E887-F565-B45E-E009-C1EF698159AC" referredColumn="5B3DEB72-D6DC-BCE0-756A-C5F3E1721BE1"/>
+</associations>
+</Column>
+<Column name="강의실" id="AB1D4C10-5210-33E9-A0CD-0F6F3A8BBA33">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>강의내역</sourceObjSchema>
+<sourceObjName>강의실</sourceObjName>
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:22 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="교시" id="0E366D85-2896-4989-9C8C-0E190E57C9DC">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>강의내역</sourceObjSchema>
+<sourceObjName>교시</sourceObjName>
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:22 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="수강인원" id="9AA9AC30-42F2-1703-EDB7-B7337A476B33">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>강의내역</sourceObjSchema>
+<sourceObjName>수강인원</sourceObjName>
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:22 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="년월" id="83DC0F61-50B3-1009-3416-3E020FB59D57">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>강의내역</sourceObjSchema>
+<sourceObjName>년월</sourceObjName>
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:22 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6B38D65-08C1-BD49-692E-CD83F579BED9" name="PK_강의내역">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>JAVA</sourceObjSchema>
+<sourceObjName>PK_강의내역</sourceObjName>
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:22 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1100ED74-A0D9-963F-3202-1EA74501E540"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DEBE7E0-D555-A131-DCB9-D8807792CEDB" schemaObject="952836C2-61DD-A7F7-A7D1-283C67057D2D" name="PK_강의내역">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>JAVA</sourceObjSchema>
+<sourceObjName>PK_강의내역</sourceObjName>
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:22 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1100ED74-A0D9-963F-3202-1EA74501E540"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="415686DF-4517-9FCA-0D32-9C050FC5A2F1" name="FK_강의내역_과목번호">
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:23 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8AFB451-AE2A-B37F-5489-AE1608795737"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA26B682-FF48-35EA-AA13-DEEF31CCADC9" name="FK_강의내역_교수번호">
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:23 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9060B7F-8324-DC68-D533-2952C52E3BEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

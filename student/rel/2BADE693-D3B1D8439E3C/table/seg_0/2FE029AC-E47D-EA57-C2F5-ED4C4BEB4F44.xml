@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2FE029AC-E47D-EA57-C2F5-ED4C4BEB4F44" schemaObject="952836C2-61DD-A7F7-A7D1-283C67057D2D" name="학생">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>JAVA</sourceObjSchema>
+<sourceObjName>학생</sourceObjName>
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:58 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="학번" id="5CCB217C-8C34-79A4-1A1E-B92C2C70B169">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>학생</sourceObjSchema>
+<sourceObjName>학번</sourceObjName>
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:58 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="이름" id="EDE4FECB-594E-B26B-F8DA-52AE6FBCC5D1">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>학생</sourceObjSchema>
+<sourceObjName>이름</sourceObjName>
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:58 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="주소" id="8DDBE4EC-0943-E40C-6DA4-1DC40D8794A2">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>학생</sourceObjSchema>
+<sourceObjName>주소</sourceObjName>
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:58 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="전공" id="0E14E6A9-3261-3431-07A1-05ABCEE8AC35">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>학생</sourceObjSchema>
+<sourceObjName>전공</sourceObjName>
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:58 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="부전공" id="9B838A7F-404B-4EB4-8A55-EAEE278B5C95">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>학생</sourceObjSchema>
+<sourceObjName>부전공</sourceObjName>
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:58 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="생년월일" id="06C8EA32-81FE-BB30-60DB-014D638F5375">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>학생</sourceObjSchema>
+<sourceObjName>생년월일</sourceObjName>
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:58 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="학기" id="F2F385EF-A7A8-F38B-EFD0-54CBAB4FEA4B">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>학생</sourceObjSchema>
+<sourceObjName>학기</sourceObjName>
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:58 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="평점" id="BAA903C0-4E2F-3CFB-5DBA-F7D659F533D3">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>학생</sourceObjSchema>
+<sourceObjName>평점</sourceObjName>
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:58 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A30CABAF-4052-8160-39A5-6F93E3A29D09" name="PK_학생">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>JAVA</sourceObjSchema>
+<sourceObjName>PK_학생</sourceObjName>
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:58 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CCB217C-8C34-79A4-1A1E-B92C2C70B169"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="653B99B0-0428-050F-2F14-E21E889F302A" schemaObject="952836C2-61DD-A7F7-A7D1-283C67057D2D" name="PK_학생">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>JAVA</sourceObjSchema>
+<sourceObjName>PK_학생</sourceObjName>
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:58 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CCB217C-8C34-79A4-1A1E-B92C2C70B169"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

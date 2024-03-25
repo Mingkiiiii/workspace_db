@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="과목" directorySegmentName="seg_0" id="3A7CBF31-2B03-863D-9888-0FB20DF25230">
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:36 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<schemaObject>952836C2-61DD-A7F7-A7D1-283C67057D2D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>348363B7-FCEC-0C79-7B46-682B6F44DE6C</segment>
+<tableSpace>1087318B-3FE5-6106-E7D1-34D2EDDEB0D4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="과목번호" id="5B3DEB72-D6DC-BCE0-756A-C5F3E1721BE1">
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:36 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="과목이름" id="B1B2F82D-4C0D-13B2-5BF2-1C98691D9062">
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:36 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="학점" id="F04346A0-161E-7F35-BCAF-B9CCA53202DA">
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:36 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_과목" id="F391D1E0-96CC-93E3-246E-DD57D9B65455">
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:36 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<schemaObject>952836C2-61DD-A7F7-A7D1-283C67057D2D</schemaObject>
+<segment>0D4777F2-3F92-56C4-E6D7-6F56E922ABA0</segment>
+<tableSpace>1087318B-3FE5-6106-E7D1-34D2EDDEB0D4</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_과목" id="F0D8E936-2B26-36E1-F0FE-E4D0E9731581">
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:36 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<segment>0D4777F2-3F92-56C4-E6D7-6F56E922ABA0</segment>
+<tableSpace>1087318B-3FE5-6106-E7D1-34D2EDDEB0D4</tableSpace>
+<existingIndex>F391D1E0-96CC-93E3-246E-DD57D9B65455</existingIndex>
+<indexSegment>0D4777F2-3F92-56C4-E6D7-6F56E922ABA0</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

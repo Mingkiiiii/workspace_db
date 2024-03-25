@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BEE1E887-F565-B45E-E009-C1EF698159AC" containerWithKeyObject="7CF5E10E-FCE8-3A97-EFC9-C4E0DDC796A0" localFKIndex="415686DF-4517-9FCA-0D32-9C050FC5A2F1" name="FK_강의내역_과목번호">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>JAVA</sourceObjSchema>
+<sourceObjName>FK_강의내역_과목번호</sourceObjName>
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:23 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<referredTableLongName>JAVA.과목</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3A7CBF31-2B03-863D-9888-0FB20DF25230</referredTableID>
+<keyObject>F0D8E936-2B26-36E1-F0FE-E4D0E9731581</keyObject>
+<referredKeyID>F0D8E936-2B26-36E1-F0FE-E4D0E9731581</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>과목번호</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

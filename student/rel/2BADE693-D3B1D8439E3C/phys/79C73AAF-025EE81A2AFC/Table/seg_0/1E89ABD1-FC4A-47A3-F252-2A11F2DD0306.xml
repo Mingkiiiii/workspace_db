@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="교수" directorySegmentName="seg_0" id="1E89ABD1-FC4A-47A3-F252-2A11F2DD0306">
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:47 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<schemaObject>952836C2-61DD-A7F7-A7D1-283C67057D2D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>348363B7-FCEC-0C79-7B46-682B6F44DE6C</segment>
+<tableSpace>1087318B-3FE5-6106-E7D1-34D2EDDEB0D4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="학위" id="3350A25F-DCA5-20D0-626F-A71396D1F062">
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:47 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="전공" id="443481C1-4F58-BCEA-C2C2-A8A3B2F54181">
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:47 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="교수이름" id="516DC52C-B83D-F60A-6733-EE88E31B1B8D">
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:47 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="주소" id="60B10A46-233B-8434-85F0-8434A4829B74">
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:47 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="교수번호" id="8CFB7DC3-C747-04FC-7436-3C36833BE1BE">
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:47 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_교수" id="1A439BA4-D290-15A4-787B-6FF54F90D0DC">
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:47 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<schemaObject>952836C2-61DD-A7F7-A7D1-283C67057D2D</schemaObject>
+<segment>0D4777F2-3F92-56C4-E6D7-6F56E922ABA0</segment>
+<tableSpace>1087318B-3FE5-6106-E7D1-34D2EDDEB0D4</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_교수" id="100403A9-3813-E96E-6946-CBCA74E89D6B">
+<createdBy>MYEONGGI</createdBy>
+<createdTime>2024-01-29 02:56:47 UTC</createdTime>
+<ownerDesignName>student</ownerDesignName>
+<segment>0D4777F2-3F92-56C4-E6D7-6F56E922ABA0</segment>
+<tableSpace>1087318B-3FE5-6106-E7D1-34D2EDDEB0D4</tableSpace>
+<existingIndex>1A439BA4-D290-15A4-787B-6FF54F90D0DC</existingIndex>
+<indexSegment>0D4777F2-3F92-56C4-E6D7-6F56E922ABA0</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

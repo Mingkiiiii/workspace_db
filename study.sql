@@ -1,0 +1,1 @@
+GRANT SELECT ON emp_dep TO study;
